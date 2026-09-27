@@ -4,6 +4,10 @@ function calcularTotal (itens) {
     for (let i = 0; i< itens.length; i++){
         total += itens[i].preco
     }
+    
+    //Aplica desconto de fidelidade
+    //antes de retornar o valor final
+
 
     return total
 }
